@@ -1,0 +1,8 @@
+# we will ignore all the target files of the project also the executables
+
+
+target/
+*.exe
+*.out
+*.o
+
