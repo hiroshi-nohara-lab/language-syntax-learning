@@ -1,11 +1,10 @@
 // to obtain user input and then print the result as output, we need to bring the io input/output library into scope. The io library comes from the standard library, known as std:
 // by default, rust has a set of tiems defined int he standard library that it brings into the scope of every program. This set is called prelude
-
 use std::io;
 // The Rng here is at rait, that defines methods that random number generator implements, and 
 use rand::Rng;
 
-use std::cmp:Ordering;
+
 
 fn main() {
     println!("Guess the number!");
@@ -53,5 +52,7 @@ fn main() {
     //  let x=5;
     //  let y=10;
     //  println!("x is {x} y + 2 {}", y+2); because we want to print an expression or an evaluated value we use y+2 in the second argument
-
 }
+
+
+
